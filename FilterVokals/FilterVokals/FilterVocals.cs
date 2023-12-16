@@ -35,7 +35,7 @@ namespace FilterVocals      //
       char[] vocalUpper = new char[5];
       vocalUpper = ['A', 'E', 'I', 'O', 'U'];
 
-      int index;
+      int index, length;
       bool empty;
 
       /*-------------------------------- HEAD -------------------------------*/
@@ -61,7 +61,7 @@ namespace FilterVocals      //
             }
           }
         }
-        int length = vocalCache.Length;
+        length = vocalCache.Length;
         for (index = 0; length > index; index++)
         {
           if (vocalCache[index] != ' ')
