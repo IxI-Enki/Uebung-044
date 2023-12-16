@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+*.csproj
+/FilterVokals/FilterVokals/obj
+*.sln
+/FilterVokals/.vs/FilterVokals/v17
+/FilterVokals/.vs/FilterVokals/FileContentIndex
+/FilterVokals/.vs/FilterVokals/DesignTimeBuild
