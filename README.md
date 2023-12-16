@@ -3,36 +3,25 @@
 # Uebung-044 --  [***Vocal Filter***](https://github.com/IxI-Enki/Uebung-044/blob/main)  
 
 <!-- ---------------------------------------------|-------------------------------------------- -->
-###### 📎[**Angabe**](https://github.com/IxI-Enki/Uebung-<<<Verzeichniss>>>.pdf) *.pdf*
+###### 📎[**Angabe**](https://github.com/IxI-Enki/Uebung-044/blob/main/work-directory/FilterVocals-1.pdf) *.pdf*
 <sup><sub> 
 ---
 </sub></sup>
 
 <!-- ---------------------------------------------|-------------------------------------------- -->
 ## 📊 Lernziele:  
-  > ↳ `◌ Punkte einfügen`  
-  > ↳ ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **¹** ]()
+  - ↳ Strings 
 
 <sup><sub> </sub></sup>
 ---
 
-## ✅ Vertiefung:  
-  > ↳ `◌ Punkte einfügen`  
-  > ↳ ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **²** ]()
-
----
-
 <!-- ---------------------------------------------|-------------------------------------------- -->
 ## 🧮 **Aufgabenstellung:**  
-  >  *Beschreibung der Aufgabe* einfügen  
-  >  *Programablauf* und weitere ***Anforderungen***  
-  >  ` ⋯ `  
-  >  
-  >  <sub> [..*weiterführende Quelle*..] </sub> [ **³** ]()
+  - Das Programm extrahiert aus dem eingegebenen Text alle Vokale (Groß/Kleinschreibung ist egal).
+  - Als Vokale sind nur a,e,i,o,u und A,E,I,O,U zu berücksichtigen.
+  - Kommt ein Vokal mehrfach vor, ist nur das erste Vorkommen zu verwenden.
+
+*Orientieren Sie sich bei der Ausgabe an der Musterausgabe!*
 
 ---
  
@@ -40,40 +29,20 @@
 ## 🔎 **Ausgabe** <sub>*Bsp.*</sub> 
 
 
-   |            ❗ *`direkt in die README einfügen`*   |  
+   |            *Musterausgabe*   |  
    | :-----------------------------------------------------------------------------------------------------------------: |
-   |  ![**Ausgabebeispiel 📎**](https://github.com/IxI-Enki/Uebung-037/assets/138018029/0e779913-4daa-4784-9edb-46df66a91bad)  |
-> <sub> [..*weiterführende Quelle*..] </sub> [ **⁴** ]()
+   |  ![**Ausgabebeispiel 📎**](https://github.com/IxI-Enki/Uebung-044/assets/138018029/8d2c1b61-8c6f-48e0-9dd3-556209aa69e4) |
+
+<sup><sub> </sub></sup>
+---
+
+   |        ❗ *Testbeispiele*   |  
+   | :-----------------------------------------------------------------------------------------------------------------: |
+   |  ![**Testbeispiele: 📎**](https://github.com/IxI-Enki/Uebung-044/assets/138018029/9f15a5b1-7d6d-47e8-8322-d5f3629cc36a) |
 
 ---
-<!-- ---------------------------------------------|-------------------------------------------- -->
-## 🧩 **Hinweis** / <sub>Ablauf</sub> 🧠<sup>💭</sup>  
 
-
- 
- ### *Ablauf:*               
-            
- ⒈)  `Punkt einfügen`   
- ⒉) ` ⋯ `               
- ⒊) ` ⋯ `               
-  
- #### 
-   - ***zum Beispiel:***
-     >  <sub>*Die Dezimalzahl*</sub> **6**  <sub>**entspricht der Binärzahl**</sub> **110**  
-     > ↳ <sub>*das sind*</sub> **3 Binärstellen**  <sub>weil  **6** ***insgesamt 3 Mal durch 2 teilbar*** *ist.*  
-
-                                               
-      ```c#                                
-         -   6 : 2 = 3,    //  Rest = 0   
-         -   3 : 2 = 1,    //  Rest = 1    
-         -   1 : 2 = 0,    //  Rest = 1     
-      ```                                 
- 
- > <sub> [..*weiterführende Quelle*..] </sub> [ **⁵** ]()
- ---
-
-
-<!-- ---------------------------------------------|-------------------------------------------- -->
+<!-- ---------------------------------------------|-------------------------------------------- --
 
 
 # *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-<<AUSFÜHRBAREDAT>>.cs) <sup></sub>:
