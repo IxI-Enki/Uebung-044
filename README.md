@@ -42,20 +42,16 @@
 
 ---
 
-<!-- ---------------------------------------------|-------------------------------------------- --
+<!-- ---------------------------------------------|-------------------------------------------- -->
 
 
-# *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-<<AUSFÜHRBAREDAT>>.cs) <sup></sub>:
-
-
+# *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/Uebung-044/blob/main/FilterVokals/FilterVokals/FilterVocals.cs) <sup></sub>:
 
 
 ### 🖥 **Ausgabe**: 
-   |            ❗ *`direkt in die README einfügen`*   
+   |            *Meine Ausgabe*   
    |--------------------------------|
-   |  ![**Ausgabe 📎**](https://github.com/IxI-Enki/Uebung-<direkt ins Markdownfile>.cs) |
-
-> <sub> [..*weiterführende Quelle*..] </sub> [ **⁶** ]()
+   |  ![**Ausgabe 📎**](https://github.com/IxI-Enki/Uebung-044/assets/138018029/865d4b1c-58d4-4d7f-aa8a-14031b1522d4) |
 
 ---
 
@@ -64,20 +60,76 @@
 
 
  ```c#
-namespace <<Bezeichnung>>   //  
-{                           //  
-  public class Program      //  
-  {                         //  
-    static void Main()      //  
+namespace FilterVocals      //  
+{                           //
+  public class Program      //
+  {                         //
+    static void Main()      //
     {
+      ///*----------------------- console_settings ------------------------*///
+      const int cWidth = 53;                     //  console width
+      const int cHeight = 30;                    //  & height
+      Console.SetWindowSize(cWidth, cHeight);    //
+      Console.OutputEncoding = Encoding.UTF8;    //  Unicode Symbols
 
-    `CODE`
+      /*----------------------------- VARIABLES -----------------------------*/
+      string userInput,                       //  
+             vocalCache = "",
+             vocalCacheOut = "";
+      char[] vocalLower = new char[5];
+      vocalLower = ['a', 'e', 'i', 'o', 'u'];
+      char[] vocalUpper = new char[5];
+      vocalUpper = ['A', 'E', 'I', 'O', 'U'];
 
+      int index;
+      bool empty;
+
+      /*-------------------------------- HEAD -------------------------------*/
+      Console.Clear();
+      Console.Write("\n             Vokale aus Text extrahieren             " +
+      /* cWidth: */ "\n=====================================================");
+
+      Console.Write("\n Text: ");
+      userInput = Console.ReadLine();
+
+      empty = (userInput.Length > 0) ? true : false;
+      if (empty)
+      {
+        for (index = 0; index < userInput.Length; index++)
+        {
+          for (int i = 0; i < 5; i++)
+          {
+            if (userInput[index] == vocalLower[i] || userInput[index] == vocalUpper[i])
+            {
+              vocalCache = vocalCache + userInput[index];
+              vocalLower[i] = ' ';
+              vocalUpper[i] = ' ';
+            }
+          }
+        }
+        int length = vocalCache.Length;
+        for (index = 0; length > index; index++)
+        {
+          if (vocalCache[index] != ' ')
+          {
+            vocalCacheOut = vocalCacheOut + vocalCache[index];
+          }
+        }
+      }
+      else
+      { Console.Write("\n"); }
+
+      Console.Write($"\n Der Text \"{userInput}\" enthält {vocalCacheOut.Length} Vokale: {vocalCacheOut}");
+
+      /*-------------------------------- END --------------------------------*/
+      Console.Write("\n Zum beenden Eingabetaste drücken..");
+      Console.ReadLine();    //  wait for [enter]
+      Console.Clear();       //
     }
   }
 }
 
 ```
-> <sub> [..*weiterführende Quelle*..] </sub> [ **⁷** ]()
+
 
 </dertails>
